@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/Miles/RiderProjects/Mission08_Team0311/Mission08_Team0311/Mission08_Team0311.csproj": {}
+    "/Users/kyleebrown/Documents/GitHub/Mission08_Team0311/Mission08_Team0311/Mission08_Team0311.csproj": {}
   },
   "projects": {
-    "/Users/Miles/RiderProjects/Mission08_Team0311/Mission08_Team0311/Mission08_Team0311.csproj": {
+    "/Users/kyleebrown/Documents/GitHub/Mission08_Team0311/Mission08_Team0311/Mission08_Team0311.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/Miles/RiderProjects/Mission08_Team0311/Mission08_Team0311/Mission08_Team0311.csproj",
+        "projectUniqueName": "/Users/kyleebrown/Documents/GitHub/Mission08_Team0311/Mission08_Team0311/Mission08_Team0311.csproj",
         "projectName": "Mission08_Team0311",
-        "projectPath": "/Users/Miles/RiderProjects/Mission08_Team0311/Mission08_Team0311/Mission08_Team0311.csproj",
-        "packagesPath": "/Users/Miles/.nuget/packages/",
-        "outputPath": "/Users/Miles/RiderProjects/Mission08_Team0311/Mission08_Team0311/obj/",
+        "projectPath": "/Users/kyleebrown/Documents/GitHub/Mission08_Team0311/Mission08_Team0311/Mission08_Team0311.csproj",
+        "packagesPath": "/Users/kyleebrown/.nuget/packages/",
+        "outputPath": "/Users/kyleebrown/Documents/GitHub/Mission08_Team0311/Mission08_Team0311/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/Miles/.nuget/NuGet/NuGet.Config"
+          "/Users/kyleebrown/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -32,6 +32,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -56,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/opt/homebrew/Cellar/dotnet@8/8.0.13/libexec/sdk/8.0.113/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.404/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,0 +1,34 @@
+@* @model Task *@
+
+@{
+    Layout = null;
+}
+
+<form class="form-floating">
+    
+    <label type="hidden" asp-for="TaskId"></label>
+    <br/>
+    <label>Task</label>
+    <input asp-for="Task"/>
+    <br/>
+    <label asp-for="DueDate">Due Date</label>
+    <input asp-for="DueDate"/>
+    <br/>
+    <label asp-for="Quadrant">Quadrant</label>
+    <input asp-for="Quadrant"></input>
+    <br/>
+    @* <select asp-for="CategoryId"> *@
+    @*     <option value="">Select a Category</option> *@
+    @*     @foreach (Category c in ViewBag.Majors) *@
+    @*     { *@
+    @*         <option value="@c.CategoryId">@c.CategoryName</option> *@
+    @*     } *@
+    @* </select> *@
+    <br/>
+    <label asp-for="Completed">Is the Task Completed</label>
+    <select asp-for="Completed">
+        <option value="true">yes</option>
+        <option value="false">no</option>
+    </select>
+    <br/>
+</form>
